@@ -1,5 +1,6 @@
-#rename_files
-Script that:
+# rename_files
+
+A python script that:
  - Reads a CSV file that contains a list of object IDs and GUIDs
  - Renames .tif files from the object ID name to the GUID name.
 
