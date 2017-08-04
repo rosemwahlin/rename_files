@@ -1,6 +1,9 @@
-# rename_files
-Script to read a CSV file that contains a list of object IDs and GUIDs that 
-renames .tif files from the object ID name to the GUID name.
+#rename_files
+Script that:
+ - Reads a CSV file that contains a list of object IDs and GUIDs
+ - Renames .tif files from the object ID name to the GUID name.
+
+So file "Object ID File.tif" gets renamed to "GUID.tif"
 
 # Usage
 python3 file_move_script.py --csvfile [filename] --inputdir [input dir] --outpudir [outdir]
